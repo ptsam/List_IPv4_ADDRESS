@@ -1,3 +1,5 @@
+'''
+'''
 def find_ipaddr(A):
   octets = []
   addr = []
@@ -32,7 +34,7 @@ def find_ipaddr(A):
   return list(set(addr))
 
 
-A = input("Enter ip string:")
+A = input("Enter IPv4 string:")
 ip_addr = find_ipaddr(A)
 print("Possible IP addresses from string '%s' " % A)
 print(ip_addr)
